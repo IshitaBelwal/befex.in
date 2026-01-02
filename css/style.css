@@ -970,6 +970,20 @@ margin: 0 auto 14px;  /* center + spacing */
   opacity: 1;
   transform: translateY(-2px);
 }
+.footer-bottom {
+  display: flex;
+  flex-direction: column;   /* 🔥 KEY FIX */
+  align-items: center;
+  gap: 6px;                 /* clean spacing between lines */
+}
+.footer-bottom,
+.footer-part {
+  text-align: center; /* or left */
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  opacity: 0.85;
+}
 /* =====================================================
    GLOBAL MOBILE SAFETY
 ===================================================== */
