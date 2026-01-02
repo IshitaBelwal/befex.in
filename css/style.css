@@ -948,6 +948,15 @@ margin: 0 auto 14px;  /* center + spacing */
     hue-rotate(350deg);
 }
 
+.footer-bottom,
+.footer-part {
+  text-align: center; /* or left */
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
 
 /* ICON STYLE */
 .footer-social img {
